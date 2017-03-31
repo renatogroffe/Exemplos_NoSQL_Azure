@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICatalogo", "APICatalogo\APICatalogo.csproj", "{F825BCEF-DC08-4DBA-8B59-0E7553D086F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargaCotacoes", "CargaCotacoes\CargaCotacoes.csproj", "{6C50C3E9-222B-4B2E-BA96-A1A53A14967F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentDB", "DocumentDB", "{86771724-FE38-4B29-A75A-CBB7A6E8B879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{77373FB4-62D5-404C-80C6-D104FCE2D6A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TableStorage", "TableStorage", "{880A87C8-B052-488A-808A-3471E5A30008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICotacoes", "APICotacoes\APICotacoes.csproj", "{90461E0C-A914-42BE-AF7D-ABB322A3C91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteCacheDistribuido", "SiteCacheDistribuido\SiteCacheDistribuido.csproj", "{FC521EED-75EB-4BD7-AE49-6BE82B98190D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargaCatologo", "CargaCatologo\CargaCatologo.csproj", "{3B10FB1B-D341-43DF-A3C3-9A87ED41D3D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F825BCEF-DC08-4DBA-8B59-0E7553D086F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F825BCEF-DC08-4DBA-8B59-0E7553D086F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F825BCEF-DC08-4DBA-8B59-0E7553D086F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F825BCEF-DC08-4DBA-8B59-0E7553D086F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C50C3E9-222B-4B2E-BA96-A1A53A14967F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C50C3E9-222B-4B2E-BA96-A1A53A14967F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C50C3E9-222B-4B2E-BA96-A1A53A14967F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C50C3E9-222B-4B2E-BA96-A1A53A14967F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90461E0C-A914-42BE-AF7D-ABB322A3C91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90461E0C-A914-42BE-AF7D-ABB322A3C91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90461E0C-A914-42BE-AF7D-ABB322A3C91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90461E0C-A914-42BE-AF7D-ABB322A3C91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC521EED-75EB-4BD7-AE49-6BE82B98190D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC521EED-75EB-4BD7-AE49-6BE82B98190D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC521EED-75EB-4BD7-AE49-6BE82B98190D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC521EED-75EB-4BD7-AE49-6BE82B98190D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B10FB1B-D341-43DF-A3C3-9A87ED41D3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B10FB1B-D341-43DF-A3C3-9A87ED41D3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B10FB1B-D341-43DF-A3C3-9A87ED41D3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B10FB1B-D341-43DF-A3C3-9A87ED41D3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F825BCEF-DC08-4DBA-8B59-0E7553D086F3} = {86771724-FE38-4B29-A75A-CBB7A6E8B879}
+		{6C50C3E9-222B-4B2E-BA96-A1A53A14967F} = {880A87C8-B052-488A-808A-3471E5A30008}
+		{90461E0C-A914-42BE-AF7D-ABB322A3C91E} = {880A87C8-B052-488A-808A-3471E5A30008}
+		{FC521EED-75EB-4BD7-AE49-6BE82B98190D} = {77373FB4-62D5-404C-80C6-D104FCE2D6A0}
+		{3B10FB1B-D341-43DF-A3C3-9A87ED41D3D0} = {86771724-FE38-4B29-A75A-CBB7A6E8B879}
+	EndGlobalSection
+EndGlobal
